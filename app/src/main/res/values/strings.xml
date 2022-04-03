@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">web server demo</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="add_person">Add Person</string>
+    <string name="show_all_people">Show All People</string>
 </resources>
