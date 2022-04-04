@@ -67,7 +67,7 @@ class MainActivity: AppCompatActivity() {
                         call: Call<List<Person>>,
                         response: Response<List<Person>>
                     ) {
-                        Log.e("test tag", response.body()!!.joinToString("a"))
+                        Log.e("test tag", response.body()!!.joinToString("; "))
                     }
 
                     override fun onFailure(call: Call<List<Person>>, t: Throwable) {
